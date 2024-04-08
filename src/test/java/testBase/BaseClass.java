@@ -7,6 +7,7 @@ import java.time.Duration;
 import java.util.Date;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -24,6 +25,9 @@ public Logger logger;
 	
 	@BeforeClass
 	public void setup() {
+		
+		
+		logger = LogManager.getLogger(this.getClass());
 		
 		driver=new ChromeDriver();
 		driver.manage().deleteAllCookies();

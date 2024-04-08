@@ -14,18 +14,32 @@ public class TC002_ValidateUserDesignation extends BaseClass {
 	
 	public void updateProfile() throws InterruptedException {
 		
+		logger.info("Test case for Validating User Designation");
+		try {
+		
 		LoginPage lp=new LoginPage(driver);
 		lp.addUsername("admin");
+		logger.info("Added Username");
 		lp.addPassword("3jg@4KVLtT");
+		logger.info("Added Password");
 		lp.btn_Login();
+		logger.info("Click on login");
 		
 		DashboardPage dp=new DashboardPage(driver);
 		String designation = dp.validate_Designation();
 		Assert.assertEquals(designation, "Regional HR Manager");
+		logger.info("Designation is validated");
 		
+		dp.logout();
+		logger.info("Logged out of the application");
 		
+		}catch(Exception e) {
+			
+			logger.error("Test case failed");
+			Assert.fail();
+		}
 		
-		
+		logger.info("Test case Executed");
 		
 	}
 	
