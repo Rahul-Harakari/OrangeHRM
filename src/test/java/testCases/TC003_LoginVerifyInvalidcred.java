@@ -18,9 +18,9 @@ public class TC003_LoginVerifyInvalidcred extends BaseClass {
 		try {
 	
 			LoginPage lp=new LoginPage(driver);
-			lp.addUsername("vdsvsd");
+			lp.addUsername(p.getProperty("invalidusername"));
 			logger.info("Added invalid username");
-			lp.addPassword("3jg@4KasaVLtT");
+			lp.addPassword(p.getProperty("invalidpassword"));
 			logger.info("Added invalid password");
 			lp.btn_Login();
 			logger.info("Click on the login button");
@@ -31,9 +31,9 @@ public class TC003_LoginVerifyInvalidcred extends BaseClass {
 			Assert.assertEquals(validatetxt, "Invalid Credentials");
 			logger.info("Validated invalid Credentials Text");
 	
-			lp.addUsername("admin");
+			lp.addUsername(p.getProperty("validusername"));
 			logger.info("Added valid username");
-			lp.addPassword("3jg@4KVLtT");
+			lp.addPassword(p.getProperty("validpassword"));
 			logger.info("Added valid password");
 			lp.btn_Login();
 			logger.info("Clicked on the login button");

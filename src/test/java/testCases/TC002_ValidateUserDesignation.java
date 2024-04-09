@@ -18,9 +18,9 @@ public class TC002_ValidateUserDesignation extends BaseClass {
 		try {
 		
 		LoginPage lp=new LoginPage(driver);
-		lp.addUsername("admin");
+		lp.addUsername(p.getProperty("validusername"));
 		logger.info("Added Username");
-		lp.addPassword("3jg@4KVLtT");
+		lp.addPassword(p.getProperty("validpassword"));
 		logger.info("Added Password");
 		lp.btn_Login();
 		logger.info("Click on login");

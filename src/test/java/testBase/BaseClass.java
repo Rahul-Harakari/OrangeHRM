@@ -1,10 +1,12 @@
 package testBase;
 
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
+import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -24,15 +26,19 @@ public class BaseClass {
 	
 public WebDriver driver;
 public Logger logger;
-	
+public Properties p;
 	
 	@BeforeClass
 	@Parameters({"os", "browser"}
 			)
-	public void setup(String os, String br) {
+	public void setup(String os, String br) throws IOException {
 		
 		
-		logger = LogManager.getLogger(this.getClass());
+		
+		logger = LogManager.getLogger(this.getClass()); // Logger
+		FileReader file = new FileReader(".//src//test//resources//config.properties"); // For config properties files
+		p=new Properties();
+		p.load(file);
 		
 		switch(br.toLowerCase()){
 		case "chrome" : driver=new ChromeDriver(); break;
@@ -43,14 +49,11 @@ public Logger logger;
 		
 		}
 		
-		
-		
-		driver=new ChromeDriver();
-		driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies(); // Delete browser cookies
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		
-		driver.get("https://rahuk2-trials712.orangehrmlive.com/auth/login");
+		driver.get(p.getProperty("url"));
 		
 		
 	}

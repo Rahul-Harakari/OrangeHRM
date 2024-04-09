@@ -1,0 +1,52 @@
+22:51:25.949 [TestNG-test-Testedge-1] INFO  testCases.TC001_LoginVerification - Text Validated
+22:51:31.616 [TestNG-test-Testedge-2] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+22:51:31.675 [TestNG-test-Testedge-2] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+22:51:32.603 [TestNG-test-Testedge-1] INFO  testCases.TC001_LoginVerification - Logged out of the application
+22:51:32.603 [TestNG-test-Testedge-1] INFO  testCases.TC001_LoginVerification - Test case executed
+22:51:39.042 [TestNG-test-Testedge-2] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+22:51:39.043 [TestNG-test-Testedge-2] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:29:31.759 [main] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:29:32.141 [main] INFO  testCases.TC001_LoginVerification - Added Username
+12:29:32.343 [main] INFO  testCases.TC001_LoginVerification - Added Password
+12:29:46.002 [main] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:29:46.172 [main] INFO  testCases.TC001_LoginVerification - Text Validated
+12:29:53.858 [main] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:29:53.858 [main] INFO  testCases.TC001_LoginVerification - Test case executed
+12:30:07.122 [main] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:30:07.409 [main] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:30:07.762 [main] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:30:19.665 [main] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:30:19.717 [main] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:30:27.727 [main] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:30:27.727 [main] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:32:03.486 [main] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:32:03.674 [main] INFO  testCases.TC001_LoginVerification - Added Username
+12:32:03.811 [main] INFO  testCases.TC001_LoginVerification - Added Password
+12:32:15.655 [main] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:32:15.733 [main] INFO  testCases.TC001_LoginVerification - Text Validated
+12:32:24.360 [main] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:32:24.361 [main] INFO  testCases.TC001_LoginVerification - Test case executed
+12:32:36.285 [main] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:32:36.439 [main] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:32:36.580 [main] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:32:48.363 [main] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:32:48.416 [main] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:32:55.796 [main] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:32:55.797 [main] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:35:56.771 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:35:56.961 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:35:57.107 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:35:57.761 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:35:57.931 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Added Username
+12:35:58.091 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Added Password
+12:36:16.135 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:36:16.295 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Text Validated
+12:36:24.949 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:36:24.949 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Test case executed
+12:36:27.485 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:36:27.543 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:36:35.902 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:36:35.905 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:36:47.334 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:36:47.505 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Added Username
+12:36:47.674 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Added Password
