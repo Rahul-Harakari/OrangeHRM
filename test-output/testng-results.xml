@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-09T12:38:08 IST" name="Suite" finished-at="2024-04-09T12:39:33 IST" duration-ms="84888">
+  <suite started-at="2024-04-10T17:54:32 IST" name="Suite" finished-at="2024-04-10T17:55:51 IST" duration-ms="79023">
     <groups>
+      <group name="sanity">
+        <method signature="TC001_LoginVerification.login()[pri:0, instance:testCases.TC001_LoginVerification@28701274]" name="login" class="testCases.TC001_LoginVerification"/>
+        <method signature="TC002_ValidateUserDesignation.updateProfile()[pri:0, instance:testCases.TC002_ValidateUserDesignation@13c9d689]" name="updateProfile" class="testCases.TC002_ValidateUserDesignation"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-04-09T12:38:08 IST" name="Testchrome" finished-at="2024-04-09T12:38:45 IST" duration-ms="37345">
+    <test started-at="2024-04-10T17:54:32 IST" name="Test" finished-at="2024-04-10T17:55:51 IST" duration-ms="79023">
       <class name="testCases.TC002_ValidateUserDesignation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ValidateUserDesignation@5fe94a96]" started-at="2024-04-09T12:38:08 IST" name="setup" finished-at="2024-04-09T12:38:22 IST" duration-ms="13849" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ValidateUserDesignation@13c9d689]" started-at="2024-04-10T17:55:09 IST" name="setup" finished-at="2024-04-10T17:55:18 IST" duration-ms="9864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +27,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updateProfile()[pri:0, instance:testCases.TC002_ValidateUserDesignation@5fe94a96]" started-at="2024-04-09T12:38:22 IST" name="updateProfile" finished-at="2024-04-09T12:38:43 IST" duration-ms="21348" status="PASS">
+        <test-method signature="updateProfile()[pri:0, instance:testCases.TC002_ValidateUserDesignation@13c9d689]" started-at="2024-04-10T17:55:18 IST" name="updateProfile" finished-at="2024-04-10T17:55:51 IST" duration-ms="32087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProfile -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_ValidateUserDesignation@5fe94a96]" started-at="2024-04-09T12:38:43 IST" name="teardown" finished-at="2024-04-09T12:38:45 IST" duration-ms="1939" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_ValidateUserDesignation@13c9d689]" started-at="2024-04-10T17:55:51 IST" name="teardown" finished-at="2024-04-10T17:55:51 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC002_ValidateUserDesignation -->
       <class name="testCases.TC001_LoginVerification">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginVerification@3e694b3f]" started-at="2024-04-09T12:38:08 IST" name="setup" finished-at="2024-04-09T12:38:22 IST" duration-ms="13811" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginVerification@28701274]" started-at="2024-04-10T17:54:32 IST" name="setup" finished-at="2024-04-10T17:54:47 IST" duration-ms="14769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,69 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testCases.TC001_LoginVerification@3e694b3f]" started-at="2024-04-09T12:38:22 IST" name="login" finished-at="2024-04-09T12:38:45 IST" duration-ms="23058" status="PASS">
+        <test-method signature="login()[pri:0, instance:testCases.TC001_LoginVerification@28701274]" started-at="2024-04-10T17:54:47 IST" name="login" finished-at="2024-04-10T17:55:08 IST" duration-ms="21304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_LoginVerification@3e694b3f]" started-at="2024-04-09T12:38:45 IST" name="teardown" finished-at="2024-04-09T12:38:45 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_LoginVerification@28701274]" started-at="2024-04-10T17:55:08 IST" name="teardown" finished-at="2024-04-10T17:55:09 IST" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC001_LoginVerification -->
-    </test> <!-- Testchrome -->
-    <test started-at="2024-04-09T12:38:45 IST" name="Firefox Test" finished-at="2024-04-09T12:39:33 IST" duration-ms="47501">
-      <class name="testCases.TC002_ValidateUserDesignation">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_ValidateUserDesignation@217ed35e]" started-at="2024-04-09T12:38:45 IST" name="setup" finished-at="2024-04-09T12:39:02 IST" duration-ms="16397" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="updateProfile()[pri:0, instance:testCases.TC002_ValidateUserDesignation@217ed35e]" started-at="2024-04-09T12:39:02 IST" name="updateProfile" finished-at="2024-04-09T12:39:31 IST" duration-ms="29705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateProfile -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_ValidateUserDesignation@217ed35e]" started-at="2024-04-09T12:39:31 IST" name="teardown" finished-at="2024-04-09T12:39:33 IST" duration-ms="1379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC002_ValidateUserDesignation -->
-      <class name="testCases.TC001_LoginVerification">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_LoginVerification@682b2fa]" started-at="2024-04-09T12:38:45 IST" name="setup" finished-at="2024-04-09T12:39:02 IST" duration-ms="16880" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:0, instance:testCases.TC001_LoginVerification@682b2fa]" started-at="2024-04-09T12:39:02 IST" name="login" finished-at="2024-04-09T12:39:28 IST" duration-ms="26066" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_LoginVerification@682b2fa]" started-at="2024-04-09T12:39:28 IST" name="teardown" finished-at="2024-04-09T12:39:30 IST" duration-ms="1567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC001_LoginVerification -->
-    </test> <!-- Firefox Test -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

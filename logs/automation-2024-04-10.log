@@ -1,0 +1,47 @@
+12:36:48.576 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:36:48.730 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:36:48.891 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:37:00.847 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:37:00.932 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Text Validated
+12:37:13.309 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:37:13.370 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:37:20.213 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:37:20.213 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:37:24.723 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:37:24.723 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Test case executed
+12:38:22.220 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:38:22.220 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:38:22.488 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:38:22.566 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Added Username
+12:38:22.720 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:38:22.756 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Added Password
+12:38:35.343 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:38:35.406 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:38:36.405 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:38:36.500 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Text Validated
+12:38:43.558 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:38:43.558 [TestNG-test-Testchrome-2] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+12:38:45.246 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:38:45.246 [TestNG-test-Testchrome-1] INFO  testCases.TC001_LoginVerification - Test case executed
+12:39:02.089 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation
+12:39:02.276 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Added Username
+12:39:02.372 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Added Password
+12:39:02.570 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+12:39:02.713 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Added Username
+12:39:02.785 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Added Password
+12:39:21.926 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+12:39:22.030 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Text Validated
+12:39:24.306 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Click on login
+12:39:24.428 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Designation is validated
+12:39:28.633 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Logged out of the application
+12:39:28.633 [TestNG-test-Firefox Test-1] INFO  testCases.TC001_LoginVerification - Test case executed
+12:39:31.789 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Logged out of the application
+12:39:31.792 [TestNG-test-Firefox Test-2] INFO  testCases.TC002_ValidateUserDesignation - Test case Executed
+17:54:47.288 [main] INFO  testCases.TC001_LoginVerification - Test case for valid credentials
+17:54:47.477 [main] INFO  testCases.TC001_LoginVerification - Added Username
+17:54:47.614 [main] INFO  testCases.TC001_LoginVerification - Added Password
+17:55:00.792 [main] INFO  testCases.TC001_LoginVerification - Clicked on the login button
+17:55:00.919 [main] INFO  testCases.TC001_LoginVerification - Text Validated
+17:55:08.571 [main] INFO  testCases.TC001_LoginVerification - Logged out of the application
+17:55:08.572 [main] INFO  testCases.TC001_LoginVerification - Test case executed
+17:55:18.965 [main] INFO  testCases.TC002_ValidateUserDesignation - Test case for Validating User Designation

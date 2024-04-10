@@ -10,7 +10,7 @@ import testBase.BaseClass;
 
 public class TC003_LoginVerifyInvalidcred extends BaseClass {
 	
-	@Test
+	@Test(groups= {"regression"})
 		public void invalidLogin() {
 		
 		logger.info("Test case for Retry Login");

@@ -12,7 +12,7 @@ public class TC001_LoginVerification extends BaseClass {
 	
 
 	
-	@Test
+	@Test(groups= {"sanity"})
 	public void login() {
 		
 		logger.info("Test case for valid credentials");

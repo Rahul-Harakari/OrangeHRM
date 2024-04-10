@@ -10,7 +10,7 @@ import testBase.BaseClass;
 public class TC002_ValidateUserDesignation extends BaseClass {
 	
 	
-	@Test
+	@Test(groups= {"sanity"})
 	
 	public void updateProfile() throws InterruptedException {
 		
