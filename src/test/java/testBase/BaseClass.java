@@ -24,7 +24,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	
-public WebDriver driver;
+static public WebDriver driver;
 public Logger logger;
 public Properties p;
 	
@@ -103,6 +103,10 @@ public Properties p;
 
 	}
 
+	
+	
+	
+	
 	
 
 }
