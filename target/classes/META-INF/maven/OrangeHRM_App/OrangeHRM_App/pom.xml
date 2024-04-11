@@ -89,7 +89,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.2.5</version>
           <configuration>
-			  <suiteXmlFiles>final.xml</suiteXmlFiles>  
+			  <suiteXmlFiles>master.xml</suiteXmlFiles>  
 		  </configuration>
           
           
